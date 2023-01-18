@@ -41,12 +41,16 @@ public class DemoArrayImplTester {
 	// TODO1: Testing min method
 	@Test
 	public void testMin(){
+		assertEquals((int)intArray.min(), 2);
+		assertEquals((char)charArray.min(), 'b');
 	}
 
 
 	// TODO2: Testing get method with valid index
 	@Test
 	public void testGetValid(){
+		assertEquals((int)intArray.get(0), 7);
+		assertEquals((char)charArray.get(0), 'r');
 	}
     
 }
